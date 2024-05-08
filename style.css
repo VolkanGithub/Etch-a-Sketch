@@ -29,3 +29,8 @@ body {
   border: 1px solid black;
   display: grid;
 }
+
+#message {
+  background-color: black;
+  color: red;
+}
