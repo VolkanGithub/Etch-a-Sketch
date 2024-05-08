@@ -12,10 +12,13 @@ function createBoard(size) {
 
   for (let i = 0; i < numberOfDivs; i++) {
     let div = document.createElement('div')
-    div.classList.add('square')
+    /* some experiments */
+    /* div.classList.add('square')
     div.addEventListener('mouseover', function () {
       div.style.backgroundColor = 'black'
     })
-    board.appendChild(div)
+    board.appendChild(div) */
+    div.style.backgroundColor = 'yellow'
+    board.insertAdjacentElement('beforeend', div)
   }
 }
